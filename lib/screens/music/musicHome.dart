@@ -1,9 +1,9 @@
 import 'package:flutter/rendering.dart';
-import 'package:chating/models/category.dart';
+import 'package:CommunityBuilder/models/category.dart';
 import 'package:flutter/material.dart';
-import 'package:chating/services/category_operations.dart';
-import 'package:chating/services/music_operation.dart';
-import 'package:chating/models/music.dart';
+import 'package:CommunityBuilder/services/category_operations.dart';
+import 'package:CommunityBuilder/services/music_operation.dart';
+import 'package:CommunityBuilder/models/music.dart';
 
 class MusicHome extends StatelessWidget {
   bool isPlaying =false;

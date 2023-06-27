@@ -1,16 +1,16 @@
-import 'package:chating/features/auth/controller/auth_controller.dart';
+import 'package:CommunityBuilder/features/auth/controller/auth_controller.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:fpdart/fpdart.dart';
 import 'package:google_sign_in/google_sign_in.dart';
-import 'package:chating/core/constants/constants.dart';
-import 'package:chating/core/constants/firebase_constants.dart';
-import 'package:chating/core/failure.dart';
-import 'package:chating/core/providers/firebase_providers.dart';
-import 'package:chating/core/type_defs.dart';
-import 'package:chating/modals/user_modal.dart';
+import 'package:CommunityBuilder/core/constants/constants.dart';
+import 'package:CommunityBuilder/core/constants/firebase_constants.dart';
+import 'package:CommunityBuilder/core/failure.dart';
+import 'package:CommunityBuilder/core/providers/firebase_providers.dart';
+import 'package:CommunityBuilder/core/type_defs.dart';
+import 'package:CommunityBuilder/modals/user_modal.dart';
 
 
 final authRepositoryProvider = Provider(

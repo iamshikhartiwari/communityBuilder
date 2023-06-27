@@ -1,4 +1,4 @@
-import 'package:chating/models/music.dart';
+import 'package:CommunityBuilder/models/music.dart';
 
 class MusicOperations{
   MusicOperations._() {}

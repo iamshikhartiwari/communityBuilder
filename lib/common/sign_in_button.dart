@@ -1,6 +1,6 @@
-import 'package:chating/core/constants/constants.dart';
-import 'package:chating/features/auth/controller/auth_controller.dart';
-import 'package:chating/theme/pallete.dart';
+import 'package:CommunityBuilder/core/constants/constants.dart';
+import 'package:CommunityBuilder/features/auth/controller/auth_controller.dart';
+import 'package:CommunityBuilder/theme/pallete.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 

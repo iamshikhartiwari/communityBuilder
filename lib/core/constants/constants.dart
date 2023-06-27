@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:chating/features/feed/feed_screen.dart';
-import 'package:chating/features/post/screens/add_post_screen.dart';
+import 'package:CommunityBuilder/features/feed/feed_screen.dart';
+import 'package:CommunityBuilder/features/post/screens/add_post_screen.dart';
 
 class Constants {
   static const logoPath = 'assets/images/logo.png';

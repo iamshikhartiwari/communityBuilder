@@ -3,13 +3,13 @@ import 'dart:io';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:chating/core/enums/enums.dart';
-import 'package:chating/core/providers/storage_repository_provider.dart';
-import 'package:chating/core/utils.dart';
-import 'package:chating/features/auth/controller/auth_controller.dart';
-import 'package:chating/features/user_profile/repository/user_profile_repository.dart';
-import 'package:chating/modals/post_model.dart';
-import 'package:chating/modals/user_modal.dart';
+import 'package:CommunityBuilder/core/enums/enums.dart';
+import 'package:CommunityBuilder/core/providers/storage_repository_provider.dart';
+import 'package:CommunityBuilder/core/utils.dart';
+import 'package:CommunityBuilder/features/auth/controller/auth_controller.dart';
+import 'package:CommunityBuilder/features/user_profile/repository/user_profile_repository.dart';
+import 'package:CommunityBuilder/modals/post_model.dart';
+import 'package:CommunityBuilder/modals/user_modal.dart';
 import 'package:routemaster/routemaster.dart';
 
 final userProfileControllerProvider = StateNotifierProvider<UserProfileController, bool>((ref) {

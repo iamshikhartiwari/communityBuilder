@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:chating/common/loader.dart';
-import 'package:chating/common/sign_in_button.dart';
-import 'package:chating/core/constants/constants.dart';
-import 'package:chating/features/auth/controller/auth_controller.dart';
-import 'package:chating/responsive/responsive.dart';
+import 'package:CommunityBuilder/common/loader.dart';
+import 'package:CommunityBuilder/common/sign_in_button.dart';
+import 'package:CommunityBuilder/core/constants/constants.dart';
+import 'package:CommunityBuilder/features/auth/controller/auth_controller.dart';
+import 'package:CommunityBuilder/responsive/responsive.dart';
 
 class LoginScreen extends ConsumerWidget {
   const LoginScreen({Key? key}) : super(key: key);

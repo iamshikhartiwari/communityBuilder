@@ -1,7 +1,7 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:chating/theme/pallete.dart';
+import 'package:CommunityBuilder/theme/pallete.dart';
 import 'package:routemaster/routemaster.dart';
 
 class AddPostScreen extends ConsumerWidget {

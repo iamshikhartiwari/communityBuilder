@@ -4,14 +4,14 @@ import 'package:dotted_border/dotted_border.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:chating/common/error_text.dart';
-import 'package:chating/common/loader.dart';
-import 'package:chating/core/constants/constants.dart';
-import 'package:chating/core/utils.dart';
-import 'package:chating/features/auth/controller/auth_controller.dart';
-import 'package:chating/features/user_profile/controller/user_profile_controller.dart';
-import 'package:chating/responsive/responsive.dart';
-import 'package:chating/theme/pallete.dart';
+import 'package:CommunityBuilder/common/error_text.dart';
+import 'package:CommunityBuilder/common/loader.dart';
+import 'package:CommunityBuilder/core/constants/constants.dart';
+import 'package:CommunityBuilder/core/utils.dart';
+import 'package:CommunityBuilder/features/auth/controller/auth_controller.dart';
+import 'package:CommunityBuilder/features/user_profile/controller/user_profile_controller.dart';
+import 'package:CommunityBuilder/responsive/responsive.dart';
+import 'package:CommunityBuilder/theme/pallete.dart';
 
 class EditProfileScreen extends ConsumerStatefulWidget {
   final String uid;

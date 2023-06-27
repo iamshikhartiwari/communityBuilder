@@ -4,14 +4,14 @@ import 'package:dotted_border/dotted_border.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:chating/common/error_text.dart';
-import 'package:chating/common/loader.dart';
-import 'package:chating/core/utils.dart';
-import 'package:chating/features/community/controller/community_controller.dart';
-import 'package:chating/features/post/controller/post_controller.dart';
-import 'package:chating/modals/community_model.dart';
-import 'package:chating/responsive/responsive.dart';
-import 'package:chating/theme/pallete.dart';
+import 'package:CommunityBuilder/common/error_text.dart';
+import 'package:CommunityBuilder/common/loader.dart';
+import 'package:CommunityBuilder/core/utils.dart';
+import 'package:CommunityBuilder/features/community/controller/community_controller.dart';
+import 'package:CommunityBuilder/features/post/controller/post_controller.dart';
+import 'package:CommunityBuilder/modals/community_model.dart';
+import 'package:CommunityBuilder/responsive/responsive.dart';
+import 'package:CommunityBuilder/theme/pallete.dart';
 
 class AddPostTypeScreen extends ConsumerStatefulWidget {
   final String type;

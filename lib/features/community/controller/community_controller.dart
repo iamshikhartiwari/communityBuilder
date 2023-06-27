@@ -4,14 +4,14 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:fpdart/fpdart.dart';
-import 'package:chating/core/constants/constants.dart';
-import 'package:chating/core/failure.dart';
-import 'package:chating/core/providers/storage_repository_provider.dart';
-import 'package:chating/core/utils.dart';
-import 'package:chating/features/auth/controller/auth_controller.dart';
-import 'package:chating/features/community/repository/communitory_repository.dart';
-import 'package:chating/modals/community_model.dart';
-import 'package:chating/modals/post_model.dart';
+import 'package:CommunityBuilder/core/constants/constants.dart';
+import 'package:CommunityBuilder/core/failure.dart';
+import 'package:CommunityBuilder/core/providers/storage_repository_provider.dart';
+import 'package:CommunityBuilder/core/utils.dart';
+import 'package:CommunityBuilder/features/auth/controller/auth_controller.dart';
+import 'package:CommunityBuilder/features/community/repository/communitory_repository.dart';
+import 'package:CommunityBuilder/modals/community_model.dart';
+import 'package:CommunityBuilder/modals/post_model.dart';
 import 'package:routemaster/routemaster.dart';
 
 final userCommunitiesProvider = StreamProvider((ref) {

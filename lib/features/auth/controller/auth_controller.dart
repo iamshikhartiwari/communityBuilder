@@ -1,8 +1,8 @@
 import 'package:riverpod/riverpod.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:chating/core/utils.dart';
-import 'package:chating/modals/user_modal.dart';
+import 'package:CommunityBuilder/core/utils.dart';
+import 'package:CommunityBuilder/modals/user_modal.dart';
 import '../reposetories/auth_reposetory.dart';
 
 final userProvider = StateProvider<UserModel?>((ref) => null);

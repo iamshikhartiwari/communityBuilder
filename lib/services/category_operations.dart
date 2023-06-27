@@ -1,4 +1,4 @@
-import 'package:chating/models/category.dart';
+import 'package:CommunityBuilder/models/category.dart';
 class CategoryOperation{
   CategoryOperation._() {}
   static List<Category> getCategories(){

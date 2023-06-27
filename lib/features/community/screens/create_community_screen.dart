@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:chating/common/loader.dart';
-import 'package:chating/features/community/controller/community_controller.dart';
-import 'package:chating/responsive/responsive.dart';
+import 'package:CommunityBuilder/common/loader.dart';
+import 'package:CommunityBuilder/features/community/controller/community_controller.dart';
+import 'package:CommunityBuilder/responsive/responsive.dart';
 
 class CreateCommunityScreen extends ConsumerStatefulWidget {
   const CreateCommunityScreen({super.key});

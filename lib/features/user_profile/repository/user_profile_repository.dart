@@ -1,11 +1,11 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:fpdart/fpdart.dart';
-import 'package:chating/core/constants/firebase_constants.dart';
-import 'package:chating/core/failure.dart';
-import 'package:chating/core/type_defs.dart';
-import 'package:chating/modals/post_model.dart';
-import 'package:chating/modals/user_modal.dart';
+import 'package:CommunityBuilder/core/constants/firebase_constants.dart';
+import 'package:CommunityBuilder/core/failure.dart';
+import 'package:CommunityBuilder/core/type_defs.dart';
+import 'package:CommunityBuilder/modals/post_model.dart';
+import 'package:CommunityBuilder/modals/user_modal.dart';
 
 import '../../../core/providers/firebase_providers.dart';
 

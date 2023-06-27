@@ -2,18 +2,18 @@
 // loggedIn
 
 import 'package:flutter/material.dart';
-import 'package:chating/features/auth/screens/login_screen.dart';
-import 'package:chating/features/community/screens/add_mods_screen.dart';
-import 'package:chating/features/community/screens/community_screen.dart';
-import 'package:chating/features/community/screens/create_community_screen.dart';
-import 'package:chating/features/community/screens/edit_community_screen.dart';
-import 'package:chating/features/community/screens/mod_tools_screen.dart';
-import 'package:chating/features/home/screens/home_screen.dart';
-import 'package:chating/features/post/screens/add_post_screen.dart';
-import 'package:chating/features/post/screens/add_post_type_screen.dart';
-import 'package:chating/features/post/screens/comments_screen.dart';
-import 'package:chating/features/user_profile/screens/edit_profile_screen.dart';
-import 'package:chating/features/user_profile/screens/user_profile_screen.dart';
+import 'package:CommunityBuilder/features/auth/screens/login_screen.dart';
+import 'package:CommunityBuilder/features/community/screens/add_mods_screen.dart';
+import 'package:CommunityBuilder/features/community/screens/community_screen.dart';
+import 'package:CommunityBuilder/features/community/screens/create_community_screen.dart';
+import 'package:CommunityBuilder/features/community/screens/edit_community_screen.dart';
+import 'package:CommunityBuilder/features/community/screens/mod_tools_screen.dart';
+import 'package:CommunityBuilder/features/home/screens/home_screen.dart';
+import 'package:CommunityBuilder/features/post/screens/add_post_screen.dart';
+import 'package:CommunityBuilder/features/post/screens/add_post_type_screen.dart';
+import 'package:CommunityBuilder/features/post/screens/comments_screen.dart';
+import 'package:CommunityBuilder/features/user_profile/screens/edit_profile_screen.dart';
+import 'package:CommunityBuilder/features/user_profile/screens/user_profile_screen.dart';
 import 'package:routemaster/routemaster.dart';
 
 final loggedOutRoute = RouteMap(routes: {

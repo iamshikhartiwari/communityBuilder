@@ -2,13 +2,13 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:chating/common/error_text.dart';
-import 'package:chating/common/loader.dart';
-import 'package:chating/features/auth/controller/auth_controller.dart';
-import 'package:chating/firebase_options.dart';
-import 'package:chating/modals/user_modal.dart';
-import 'package:chating/router.dart';
-import 'package:chating/theme/pallete.dart';
+import 'package:CommunityBuilder/common/error_text.dart';
+import 'package:CommunityBuilder/common/loader.dart';
+import 'package:CommunityBuilder/features/auth/controller/auth_controller.dart';
+import 'package:CommunityBuilder/firebase_options.dart';
+import 'package:CommunityBuilder/modals/user_modal.dart';
+import 'package:CommunityBuilder/router.dart';
+import 'package:CommunityBuilder/theme/pallete.dart';
 import 'package:routemaster/routemaster.dart';
 
 void main() async {

@@ -3,9 +3,9 @@ import 'package:firebase_storage/firebase_storage.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:fpdart/fpdart.dart';
-import 'package:chating/core/failure.dart';
-import 'package:chating/core/providers/firebase_providers.dart';
-import 'package:chating/core/type_defs.dart';
+import 'package:CommunityBuilder/core/failure.dart';
+import 'package:CommunityBuilder/core/providers/firebase_providers.dart';
+import 'package:CommunityBuilder/core/type_defs.dart';
 
 
 final storageRepositoryProvider = Provider(

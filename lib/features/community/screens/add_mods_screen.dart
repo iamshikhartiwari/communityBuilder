@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:chating/common/error_text.dart';
-import 'package:chating/common/loader.dart';
-import 'package:chating/features/auth/controller/auth_controller.dart';
-import 'package:chating/features/community/controller/community_controller.dart';
+import 'package:CommunityBuilder/common/error_text.dart';
+import 'package:CommunityBuilder/common/loader.dart';
+import 'package:CommunityBuilder/features/auth/controller/auth_controller.dart';
+import 'package:CommunityBuilder/features/community/controller/community_controller.dart';
 
 class AddModsScreen extends ConsumerStatefulWidget {
   final String name;

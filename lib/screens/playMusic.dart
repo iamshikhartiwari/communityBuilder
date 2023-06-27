@@ -1,8 +1,8 @@
 import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/material.dart';
-import 'package:chating/screens/music/search.dart';
-import 'package:chating/screens/music/musicHome.dart';
-import 'package:chating/models/music.dart';
+import 'package:CommunityBuilder/screens/music/search.dart';
+import 'package:CommunityBuilder/screens/music/musicHome.dart';
+import 'package:CommunityBuilder/models/music.dart';
 
 class MusicPlayingScreen extends StatefulWidget {
   const MusicPlayingScreen({Key? key}) : super(key: key);

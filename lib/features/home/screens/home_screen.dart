@@ -2,13 +2,13 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:chating/core/constants/constants.dart';
-import 'package:chating/features/auth/controller/auth_controller.dart';
-import 'package:chating/features/home/delegates/search_community_delegate.dart';
-import 'package:chating/features/home/drawers/community_list_drawer.dart';
-import 'package:chating/features/home/drawers/profile_drawer.dart';
-import 'package:chating/theme/pallete.dart';
-import 'package:chating/screens/music/search.dart';
+import 'package:CommunityBuilder/core/constants/constants.dart';
+import 'package:CommunityBuilder/features/auth/controller/auth_controller.dart';
+import 'package:CommunityBuilder/features/home/delegates/search_community_delegate.dart';
+import 'package:CommunityBuilder/features/home/drawers/community_list_drawer.dart';
+import 'package:CommunityBuilder/features/home/drawers/profile_drawer.dart';
+import 'package:CommunityBuilder/theme/pallete.dart';
+import 'package:CommunityBuilder/screens/music/search.dart';
 
 
 class HomeScreen extends ConsumerStatefulWidget {

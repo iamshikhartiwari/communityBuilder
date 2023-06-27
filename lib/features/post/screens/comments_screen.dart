@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:chating/common/error_text.dart';
-import 'package:chating/common/loader.dart';
-import 'package:chating/common/post_card.dart';
-import 'package:chating/features/auth/controller/auth_controller.dart';
-import 'package:chating/features/post/controller/post_controller.dart';
-import 'package:chating/features/post/widgets/comment_card.dart';
-import 'package:chating/modals/post_model.dart';
-import 'package:chating/responsive/responsive.dart';
+import 'package:CommunityBuilder/common/error_text.dart';
+import 'package:CommunityBuilder/common/loader.dart';
+import 'package:CommunityBuilder/common/post_card.dart';
+import 'package:CommunityBuilder/features/auth/controller/auth_controller.dart';
+import 'package:CommunityBuilder/features/post/controller/post_controller.dart';
+import 'package:CommunityBuilder/features/post/widgets/comment_card.dart';
+import 'package:CommunityBuilder/modals/post_model.dart';
+import 'package:CommunityBuilder/responsive/responsive.dart';
 
 class CommentsScreen extends ConsumerStatefulWidget {
   final String postId;
